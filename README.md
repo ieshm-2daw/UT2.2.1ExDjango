@@ -1,4 +1,4 @@
-# UT2.2.1ExDjango: Gestión de Biblioteca Musical con Django**  
+# UT2.2.1ExDjango: Gestión de Biblioteca Musical con Django 
 
 ### **Instrucciones:**  
 Desarrolla un sistema básico en Django para gestionar una biblioteca musical. Para ello deberás clonar este repositorio que tiene una estructura inicial del proyecto y completarlo con las siguientes tareas:
