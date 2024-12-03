@@ -1,0 +1,12 @@
+{% extends 'musica/base.html' %}
+
+{% block contenido %}
+    <h2>Listado de artistas</h2>
+    <ul>
+    {% for artista in artistas %}
+        <li><a href="{% url 'detalle_artista' id=artista.pk %}">{{artista.nombre}}</a></li>
+    {% empty %}
+        <li>No existen artistas</li>
+    {% endfor %}
+    </ul>
+{% endblock%}

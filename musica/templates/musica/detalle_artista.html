@@ -1,0 +1,19 @@
+{% extends 'musica/base.html' %}
+
+{% block contenido %}
+    <h2>Detalle del artista {{artista.nombre }}</h2>
+    <ul>
+    {% for album in artista.albums.all%}
+        <li>{{album.titulo}}:</li>
+        <ul>
+            {% for cancion in album.canciones.all%}
+                <li>{{cancion.titulo}}</li>
+            {% empty %}
+                <li>No existen canciones</li>
+            {%endfor%}
+        </ul>
+    {% empty %}
+        <li>No existen álbumnes</li>
+    {%endfor%}
+    </ul>
+{% endblock%}
