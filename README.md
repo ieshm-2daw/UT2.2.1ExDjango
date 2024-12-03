@@ -19,7 +19,7 @@ Desarrolla un sistema básico en Django para gestionar una biblioteca musical. P
 2. **Administración (1 punto)**  
    Configura el panel de administración para mostrar los objetos anteriores: Artistas, álbumnes y canciones.  Crea un usuario administrador. 
 
-3. **Vistas y URLs (4 puntos)**  
+3. **Vistas y URLs (3 puntos)**  
    Crea las siguientes vistas:  
    - Una vista para listar todos los artistas disponibles en la base de datos.  
    - Una vista para mostrar el detalle de un artista, incluyendo:  
@@ -27,7 +27,7 @@ Desarrolla un sistema básico en Django para gestionar una biblioteca musical. P
      - Sus canciones agrupadas por álbum.  
 Configura las URLs correspondientes para estas vistas.  
 
-4. **Plantillas (2 puntos)**  
+4. **Plantillas (3 puntos)**  
    Diseña tres plantillas:
    - Una base.html con la estructura inicial del html y de la que extenderán el resto.
    - Otra para listar los artistas con enlaces al detalle de cada uno.  
